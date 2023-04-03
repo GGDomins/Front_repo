@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#form > #id, #password, #login {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+#login {
+    color: #fff;
+    background-color: #708090;
+    border-style: none;
+    padding: 13px;
+}
+
+#signup {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    color: #fff;
+    background-color: #a6a6a6;
+    border-style: none;
+    padding: 13px;
+}
