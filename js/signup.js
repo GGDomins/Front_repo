@@ -4,6 +4,7 @@ const fname = document.getElementById('name');
 const bday = document.getElementById('birthday');
 const form = document.getElementById('form');
 
+
 // form.addEventListener('submit', (e) => {
 //     e.preventDefault();
 
